@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- <title>Carlos Grajales - Portfolio</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"> -->
+
+  <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carlos Grajales - Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap">
+</head>
+<body>
+  <script src="script.js"></script>
+  <nav>
+    <button class="btnMenu" onclick="show()">
+      ☰
+    </button>
+
+    <div class="logo">
+      <img src="images/logo.png">
+      <h1>Carlos Grajales</h1>
+    </div>
+
+    <ul>
+      <li><a href="#about">Acerca de mí</a></li>
+      <li><a href="#skills">Habilidades</a></li>
+      <li><a href="#projects">Proyectos</a></li>
+      <li><a href="#contact">Contacto</a></li>
+    </ul>
+
+    <div class="links-github-linkedin">
+      <li><a><img src="images/git-logo.png"> Github </a></li>
+      <li><a><img src="images/linkedin-logo.png"> LinkedIn</a></li>
+    </div>
+  </nav>
+
+  <section class="menu" id="menu" onclick="hide()">
+    <div class="close-menu" onclick="hide()">
+        <p>X</p>
+    </div>
+    <a href="#about">Acerca de mí</a>
+    <a href="#skills">Habilidades</a>
+    <a href="#projects">Proyectos</a>
+    <a href="#contact">Contacto</a>
+ </section>
+
+  <div class="waves waves-web">
+    <img src="images/waves-web.png"> 
+  </div>
+
+  <section id="home">
+    <div class="content">
+      <div class="row-content">
+        <h3>Hola 👋</h3>
+        <p>Soy<strong>   Carlos Grajales</strong></p>
+        <h1>Desarrollador</h1>
+        <h1>Frontend</h1>
+        <h3>encantado de conocerte</h3>
+
+        <button class="btnViewCV">Ver mi CV</button>
+      </div>
+
+      <div class="row-content row-photo">
+        <img src="images/carlos-photo.png">
+      </div>
+    </div>
+    <div class="waves waves-mobile">
+      <img src="images/waves-mobile.png"> 
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="content">
+      <div class="row-content">
+        <h2 class="title">Acerca de mí</h2>
+        <p class="paragraph">
+          Soy ingeniero de sistemas con 2 años de experiencia como desarrollador frontend junior, me he 
+          destacado por mi contribución al desarrollo exitoso de una red social para la contratación 
+          de profesionales y por liderar el desarrollo de un sistema de reserva de pasajes de autobús 
+          utilizando Angular y Firebase en mi tesis de grado. Poseo sólidas habilidades de resolución 
+          de problemas y trabajo en equipo. 
+        </p>
+        <p class="paragraph">
+          Ahora busco un nuevo desafío donde pueda aplicar y expandir mis habilidades técnicas. 
+          Soy un profesional apasionado, orientado a resultados y entusiasmado por formar parte 
+          de proyectos innovadores donde pueda contribuir al éxito del equipo.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience">
+    <div class="content">
+      <div class="row-content">
+        <h2 class="title">Experiencia Profesional</h2>
+        <div class="item-experience">
+          <div class="row-experience">
+            <h3 class="position">Desarrollador Frontend Junior</h3>
+            <h3 class="company">Januus LLC</h3>
+          </div>
+
+          <div class="row-experience">
+            <div class="workday">
+              Tiempo completo
+            </div>
+            <div class="date-experience">
+              <h3>Feb 2021</h3>
+              <h3>-</h3>  
+              <h3>May 2023</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="item-experience">
+          <div class="row-experience">
+            <h3 class="position">Desarrollador Frontend Junior</h3>
+            <h3 class="company">A&C Soluciones en TI</h3>
+          </div>
+
+          <div class="row-experience">
+            <div class="workday">
+              Tiempo completo
+            </div>
+            <div class="date-experience">
+              <h3>Jul 2020</h3>
+              <h3>-</h3> 
+              <h3>Sep 2020</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="content">
+      <div class="row-content">
+        <h2 class="title">Habilidades</h2>
+        <p class="paragraph">
+          Tecnologías con las que trabajo actualmente.
+        </p>
+
+        <div class="skills-icons">
+          <img src="images/icon-html.svg">
+          <img src="images/icon-css.svg">
+          <img src="images/icon-js.svg">
+          <img src="images/icon-angular.png">
+          <img src="images/icon-ts.png">
+          <img src="images/icon-git.svg">
+          <img src="images/icon-sql.png">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="content">
+      <div class="row-content">
+        <h2 class="title">Proyectos</h2>
+        <p class="paragraph">
+          Estos son los proyectos en los que he participado y otros que e creado 
+          enteramente por mi cuenta. 
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="content">
+      <div class="row-content">
+        <h2 class="title">Contacto</h2>
+        <p class="paragraph">
+          ¡Ponte en contacto conmigo! Envíame un correo electrónico a 
+          carlosandres9326@gmail.com. 
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="content">
+      <p class="paragraph">
+        Derechos de autor © 2023 Carlos Grajales
+      </p>
+    </div>
+  </footer>
+</body>
+</html>
+
