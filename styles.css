@@ -1,5 +1,4 @@
 
-
 * {
   margin: 0;
   padding: 0;
@@ -451,7 +450,7 @@ footer .paragraph {
   }
 
   .row-photo img {
-    width: 75%;
+    width: 60%;
   }
 
   .row-content h1 {
@@ -522,18 +521,9 @@ footer .paragraph {
   }
 }
 
-
 /* Animations */
 
 @keyframes hide{
   0% {opacity: 1;}
   100%{opacity: 0;}
 }
-
-
-
-  
-
-  
-
-  
