@@ -287,6 +287,7 @@ section {
   border-radius: 14px;
   border: none;
   margin: 3rem 0 0 0;
+  cursor: pointer;
 }
 
 /* Skils */
